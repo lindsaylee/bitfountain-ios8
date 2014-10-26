@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65ADEFE919FD92610074BFF5 /* SlotBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ADEFE819FD92610074BFF5 /* SlotBrain.swift */; };
 		65B0DEF919F8069600FAD8BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B0DEF819F8069600FAD8BB /* AppDelegate.swift */; };
 		65B0DEFB19F8069600FAD8BB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B0DEFA19F8069600FAD8BB /* ViewController.swift */; };
 		65B0DEFE19F8069600FAD8BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65B0DEFC19F8069600FAD8BB /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		65ADEFE819FD92610074BFF5 /* SlotBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlotBrain.swift; sourceTree = "<group>"; };
 		65B0DEF319F8069600FAD8BB /* SlotMachine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlotMachine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65B0DEF719F8069600FAD8BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65B0DEF819F8069600FAD8BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				65B0DEFC19F8069600FAD8BB /* Main.storyboard */,
 				65B0DEFF19F8069600FAD8BB /* Images.xcassets */,
 				65B0DF1A19F9EF3500FAD8BB /* Factory.swift */,
+				65ADEFE819FD92610074BFF5 /* SlotBrain.swift */,
 				65B0DF0119F8069600FAD8BB /* LaunchScreen.xib */,
 				65B0DEF619F8069600FAD8BB /* Supporting Files */,
 			);
@@ -222,6 +225,7 @@
 				65B0DEFB19F8069600FAD8BB /* ViewController.swift in Sources */,
 				65B0DF1919F9CDDF00FAD8BB /* Slot.swift in Sources */,
 				65B0DEF919F8069600FAD8BB /* AppDelegate.swift in Sources */,
+				65ADEFE919FD92610074BFF5 /* SlotBrain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +419,7 @@
 				65B0DF1419F8069600FAD8BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65B0DF1519F8069600FAD8BB /* Build configuration list for PBXNativeTarget "SlotMachineTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +428,7 @@
 				65B0DF1719F8069600FAD8BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
