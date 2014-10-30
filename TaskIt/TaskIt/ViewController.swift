@@ -23,15 +23,20 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         // Do any additional setup after loading the view, typically from a nib.
         
         
+        let date1 = Date.from(year: 2014, month: 05, day: 20)
+        let date2 = Date.from(year: 2014, month: 03, day: 3)
+        let date3 = Date.from(year: 2014, month: 12, day: 13)
+        
+        
         //*** 2. Create 3 dictionaries which will have keys that are strings and values that are strings. Notice that for each Dictionary we set a "key-value" pair separated by a comma
         //let task1:Dictionary<String, String> = ["task": "Study French", "subtask": "Verbs", "date": "01/14/2014"]
         //let task2:Dictionary<String, String> = ["task": "Eat dinner", "subtask": "Burgers", "date": "01/14/2014"]
         //let task3:Dictionary<String, String> = ["task": "Gym", "subtask": "Pushups", "date": "01/14/2014"]
         //*** Refactored the code to create the tasks using the TaskModel struct
         
-        let task1 = TaskModel(task: "Study French", subTask: "Verbs", date: "01/14/2014")
-        let task2 = TaskModel(task: "Eat dinner", subTask: "Burgers", date: "01/14/2014")
-        let task3 = TaskModel(task: "Gym", subTask: "Pushups", date: "01/14/2014")
+        let task1 = TaskModel(task: "Study French", subTask: "Verbs", date: date1)
+        let task2 = TaskModel(task: "Eat Dinner", subTask: "Burgers", date: date2)
+        let task3 = TaskModel(task: "Gym", subTask: "Pushups", date: date3)
         
         
         //*** 3. Add each Dictionary to the taskArray
@@ -93,7 +98,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         //cell.dateLabel.text = taskDict["date"]
         cell.taskLabel.text = thisTask.task
         cell.descriptionLabel.text = thisTask.subTask
-        cell.dateLabel.text = thisTask.date
+        cell.dateLabel.text = Date.toString(date: thisTask.date)
    
         return cell
     }
