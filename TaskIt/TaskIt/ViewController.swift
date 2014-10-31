@@ -54,6 +54,17 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     
+    
+    
+    //This opens up the Add Task window
+    @IBAction func addButtonTapped(sender: UIBarButtonItem) {
+        
+        self.performSegueWithIdentifier("showTaskAdd", sender: self)
+        
+        
+    }
+    
+    
     //This is passed before the segue takes place
     //Use an if statement to ensure the proper transition is occurring since multiple segures can occur from the ViewController
     //Therefore - use the identifier property of the segue to confirm that it is the same name
